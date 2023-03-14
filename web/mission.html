@@ -124,11 +124,11 @@
 
     <!-- Basic -->
     <div class="pt-3 m-3 ">
-        <div class="container">
+        <div class="container-lg">
             <div class="row">
                 <div class="col-6">
                     <img src="https://imgs.search.brave.com/X0MXY5G9hW2_0ATCPkagwEaVx3oV2gSrQuj5Ogxgq_4/rs:fit:480:322:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzc5L2U3/LzJlLzc5ZTcyZWM4/NWM1OGFkMmQ2NzZj/MjNiYmU4ODdmOGJh/LmpwZw"
-                        alt="3_angels">
+                        alt="3_angels" class="img-fluid w-100">
                 </div>
                 <div id="mission1" class="col-6 pt-3 mt-3">
                     <h3>La mission de l’église adventiste du 7ème jour est de : </h3>
@@ -139,15 +139,55 @@
             </div>
         </div>
     </div>
-    <div id="mission1" class="container">
+    <div id="mission1" class="container-xxl">
         <div class="p-2 m-2"></div>
         <h3>Nous poursuivons cette mission sous la conduite du Saint-Esprit par :</h3>
     </div>
 
     <div id="predication">
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions">La Prédication</button>
+        <div class="text-center">
+            <div class="col">
+                <button class="btn btn-solid-reg mb-5 btn-lg" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">La
+                    Prédication</button>
 
+                <button class="btn btn-solid-reg mb-5 btn-lg" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">L'Enseignement</button>
+
+                <button class="btn btn-solid-reg mb-5 btn-lg" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">La Guérison</button>
+
+            </div>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">La Guérison</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Affirmant que la Bible met l’accent sur le bien-être de la personne tout entière, nous faisons de
+                        la préservation de la santé et de la guérison des malades ne priorité et, par notre ministère en
+                        faveur des pauvres et des opprimés, nous coopérons, avec le Créateur, à son œuvre compatissant
+                        de rétablissement.</p>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">L'Enseignement</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                    <p> Reconnaissant que le développement de l’esprit et du caractère est essentiel pour le plan du
+                        salut de Dieu, nous promouvons le développement d’une compréhension mûre et d’une relation
+                        avec Dieu, sa Parole et l’univers créé.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
         aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
@@ -155,22 +195,409 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <p>Acceptant l’ordre du Christ (Mt 28.18-20), nous proclamons, au monde entier, le message d’un Dieu d’amour, qui a été révélé pleinement par le ministère de réconciliation et la mort expiatoire de son Fils. Reconnaissant la Bible comme étant la révélation infaillible de la volonté de Dieu, nous présentons son message dans son intégralité, y compris la seconde venue du Christ et l’autorité permanente de sa loi des dix commandements avec le rappel du 7ème jour, le sabbat.</p>
+            <p>Acceptant l’ordre du Christ (Mt 28.18-20), nous proclamons, au monde entier, le message d’un Dieu
+                d’amour, qui a été révélé pleinement par le ministère de réconciliation et la mort expiatoire de son
+                Fils. Reconnaissant la Bible comme étant la révélation infaillible de la volonté de Dieu, nous
+                présentons son message dans son intégralité, y compris la seconde venue du Christ et l’autorité
+                permanente de sa loi des dix commandements avec le rappel du 7ème jour, le sabbat.</p>
         </div>
     </div>
-</div>
 
-    <div id=""></div>
+    <div id="nos_croyance">
+        <div class="container-lg" id="left_blf">
+            <div class="text-center">
+                <h2>Nos Croyances</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                1. Les Saintes écritures
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Les Saintes Écritures – l´Ancien et le Nouveau Testament – sont
+                                la Parole de Dieu écrite, communiquée grâce à l´inspiration divine par l´intermédiaire
+                                de saints hommes de Dieu qui ont parlé et écrit sous l´impulsion du Saint-Esprit. Dans
+                                cette Parole, Dieu a confié à l´homme la connaissance nécessaire au salut. Les Saintes
+                                Écritures constituent la révélation infaillible de sa volonté. Elles sont la norme du
+                                caractère, le critère de l´expérience, le fondement souverain des doctrines et le récit
+                                digne de confiance des interventions de Dieu dans l´histoire. (2 P 1.20, 21 ; 2 Tm 3.16,
+                                17 ; Ps 119.105 ; Pr 30.5, 6 ; Es 8.20 ; Jn 17.17. 1 Th 2.13 ; Hé 4.12)</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                2. La Trinité
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Il y a un seul Dieu : Père, Fils et Saint-Esprit, unité de trois
+                                personnes co-éternelles. Dieu est immortel, omniprésent, omniscient, souverain et
+                                toujours présent. Il est infini et dépasse la compréhension humaine ; cependant, il peut
+                                être connu grâce à la révélation qu´il donne de lui-même. Il est toujours digne d´être
+                                invoqué, adoré et servi par toute la création. (Dt 6.4 ; Mt 28.19 ; 2 Co 13.14 ; Ep
+                                4.4-6 ; 1 P 1.2 ; 1 Tm 1.17 ; Ap 14.7)
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    3. Le Père
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Dieu, le Père éternel, est le Créateur, la source, le
+                                    soutien et le souverain de toute la création. Il est juste et saint, miséricordieux
+                                    et compatissant, lent à la colère, riche en bienveillance et en fidélité. Les vertus
+                                    et les facultés manifestées par le Fils et le Saint6esprit sont aussi révélatrices
+                                    du Père. (Gn 1.1 ; Ap 4.11 ; 1 Co 15.28 ; Jn 3.16 ; 1 Jn 4.8 ; 1 Tm 1.17 ; Ex 34.6,
+                                    7. Jn 14.9)
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            3.1 Le Fils
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Dieu, le Père éternel, est le Créateur, la source,
+                                            le soutien et le souverain de toute la création. Il est juste et saint,
+                                            miséricordieux et compatissDieu, le Fils éternel, s´est incarné en
+                                            Jésus-Christ. Par lui, tout a été créé ; par lui, le caractère de Dieu s´est
+                                            révélé, le salut de l´humanité s´est accompli et le monde est jugé.
+                                            Éternellement et véritablement Dieu, il est aussi devenu véritablement
+                                            homme, Jésus, le Christ. Il a été conçu du Saint-Esprit et il est né de la
+                                            vierge Marie. Il a vécu et a été soumis à la tentation en tant qu´homme,
+                                            mais il a donné l´exemple parfait de la justice et de l´amour de Dieu. Ses
+                                            miracles ont mis en évidence la puissance de Dieu et l´ont confirmé comme le
+                                            Messie promis. Il a souffert et il est mort de son plein gré sur la croix
+                                            pour nos péchés et à notre place, il est ressuscité des morts et il est
+                                            monté exercer un ministère en notre faveur dans le sanctuaire céleste. Il
+                                            reviendra en gloire pour délivrer définitivement son peuple et rétablir
+                                            toutes choses. (Jn 1.1-3 ; 14 ; Col 1.15-19 ; Jn 10.30 ; 14.9 ; Rm 6.23 ; 2
+                                            Co 5.17-21 ; Jn 5.22 ; Lc 1.35 ; Ph 2.5-11 ; 1 Co 15.3, 4 ; Hé 2.9-18 ;
+                                            8.1,2 ; Jn 14.1-3)ant, lent à la colère, riche en bienveillance et en
+                                            fidélité. Les vertus et les facultés manifestées par le Fils et le
+                                            Saint6esprit sont aussi révélatrices du Père. (Gn 1.1 ; Ap 4.11 ; 1 Co 15.28
+                                            ; Jn 3.16 ; 1 Jn 4.8 ; 1 Tm 1.17 ; Ex 34.6, 7. Jn 14.9)
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-heading">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                                        3.2 Le Saint-Esprit
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingThree"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Dieu, l´Esprit éternel, a pris, avec le
+                                                        Père et le Fils, une part active à la création, à l´incarnation
+                                                        et à la rédemption. Il a inspiré les écrivains de la Bible. Il a
+                                                        rempli de puissance la vie du Christ. Il attire et persuade les
+                                                        êtres humain ; ceux qui répondent favorablement, il les régénère
+                                                        et les transforme à l´image de Dieu. Envoyé par le Père et le
+                                                        Fils pour être toujours avec les croyants, il dispense ses dons
+                                                        spirituels à l´Église, lui donne la puissance nécessaire pour
+                                                        rendre témoignage au Christ et, en harmonie avec les Écritures,
+                                                        la conduit dans toute la vérité. (Gn 1.1, 2 ; Lc 1.35 ; 2 P 1.21
+                                                        ; Lc 4.18 ; Ac 10.38 ; 2 Co 3.18 ; Ep 4.11, 12 ; Ac 1.8 ; Jn
+                                                        14.16-18, 26 ; 15.26, 27 ; 16.7-13)
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            4. La création
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Dieu a créé toutes choses et nous a révélé dans les Écritures le
+                            compte rendu de son activité créatrice. En six jours, le Seigneur a fait les cieux et la
+                            terre, et il s´est reposé le septième jour de cette première semaine. Ila, par là même,
+                            institué le sabbat comme mémorial perpétuel d´une œuvre créatrice achevée. Le premier
+                            couple, homme et femme, fut créé à l´image de Dieu comme le couronnement de la création ; il
+                            reçut le pouvoir de dominer le monde et fut chargé d´en prendre soin. Dès son achèvement, le
+                            monde était très bon et proclamait la gloire de Dieu. (Gn 1.2 ; Ex 20.8-11 ; Ps 19.1-6 ;
+                            33.6, 9 ; 104 ; Hé 11.3)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false"
+                        aria-controls="flush-colcollapseSixlapseFive">
+                        5. La Nature de l'homme
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">L´homme et la femme furent créés à l´image de Dieu et dotés d´une
+                        individualité, c´est-à-dire du pouvoir et de la liberté de penser et d´agir. Bien que créé
+                        libre, chacun d´eux, constitué d´une unité indivisible, corps, âme et esprit, était dépendant de
+                        Dieu pour la vie, dans tous les aspects de l´existence. Quand nos premiers parents désobéirent à
+                        Dieu, ils refusèrent de dépendre de lui et furent déchus de la position élevée que Dieu leur
+                        avait conférée. L´image divine fut altérée en eux et ils devinrent mortels. Leurs descendants
+                        participent à cette nature déchue et en supportent les conséquences. Ils naissent avec des
+                        faiblesses et des tendances au mal. Mais Dieu – en Christ – a réconcilié le monde avec lui-même
+                        et ; par son Esprit, il rétablit chez les mortels repentants l´image de celui qui les a faits.
+                        Créés pour la gloire de Dieu, ils sont appelés à l´aimer, à s´aimer les uns les autres et à
+                        prendre soin de leur environnement. (Gn 1.26-28 ; 2.7 ; Ps 8.4-8 ; Ac 17 ;24-28 ; Gn 3 ; Ps
+                        51.7, 12 ; 1 Jn 4.7, 8, 11, 20 ; Gn 2.15 ; Rm 5.12-17 ; 2 Co 5.19, 20)</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        6. Le grand conflit
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">L´humanité tout entière est actuellement impliquée dans un vaste conflit
+                        entre le Christ et Satan, concernant le caractère de Dieu, sa loi et sa souveraineté sur
+                        l´univers. Ce conflit éclata dans le ciel lorsqu´un être créé, doté de la liberté de choisir,
+                        devint, par une exaltation de sa personne, Satan, l´ennemi de Deiu, et entraîna dans la révolte
+                        une partie des anges. Il introduisit un esprit de rébellion dans ce monde lorsqu´il incita Adam
+                        et Ève à pécher. Ce péché humain eut pour conséquence, l´altération de l´image de Dieu dans
+                        l´humanité, la perturbation du monde créé et sa destruction lors du déluge universel. Au regard
+                        de toute la création, ce monde est devenu le théâtre du conflit universel dont, en fin de
+                        compte, le Dieu d´amour sortira réhabilité. Afin de prêter main-forte à son peuple dans ce
+                        conflit, le Christ envoie le Saint-Esprit et les anges fidèles pour le guider, le protéger et le
+                        soutenir sur le chemin du salut. (Ap 12.4-9 ; Es 14.12-14 ; Ez 28.12-18 ; Gn 3 ; 2 P 3.6 ; Rm
+                        1.19-32 ; 5.12-21 ; 8.19-22 ; Gn 6-8 ; Hé 1.14 ; 1 Co 4.9)</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        7. Vie, mort et résurrection du Christ
+                    </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La vie du Christ, parfaitement soumise à la volonté divine, ses
+                        souffrances, sa mort et sa résurrection sont les moyens nécessaires auxquels Dieu a pourvu pour
+                        libérer l´homme du péché, en sorte que tous ceux qui, par la foi, acceptent ce rachat,
+                        obtiennent la vie éternelle. Dès lors, la création tout entière peut mieux comprendre l´amour
+                        saint et infini du Créateur. Cette réconciliation parfaite prouve la justice de la loi de Dieu
+                        et la noblesse de son caractère ; en effet, elle condamne notre péché tout en pourvoyant à notre
+                        pardon. La mort du Christ a une valeur substitutive et rédemptrice ; elle est propre à
+                        réconcilier et à transformer. Sa résurrection proclame le triomphe de Dieu sur les forces du mal
+                        et à ceux qui acceptent la réconciliation, elle assure la victoire finale sur le péché et la
+                        mort. Elle atteste la seigneurie de Jésus-Christ, devant qui tout genou ploiera dans les cieux
+                        et sur la terre. (Jn 3.16 ; Es 53 ; 1 P 2.21,22 ; 1 Co 15.3,4,20-22 ; 2 Co 5.14,15,19-21 ; Rm
+                        1.4 ; 3.25 ; 4.25 ; 8.3,4 ; Ph 2.6-11 ; 1 Jn 2.2 ; 4.10 ; Col 2.15)</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        8. L'expérience du salut
+                    </button>
+                </h2>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Le Christ n´a pas connu le péché. Pourtant, dans son amour infini, Dieu
+                        l´a fait péché pour nous, afin que nous devenions en lui justice de Dieu. Sous l´influence du
+                        Saint-Esprit, nous prenons conscience de notre besoin, nous reconnaissons notre condition de
+                        pécheurs, nous nous repentons de nos transgressions et nous exprimons notre foi en Jésus comme
+                        Seigneur et Sauveur, comme substitut et comme exemple. Cette foi par laquelle nous recevons le
+                        salut provient du pouvoir divin de la Parole ; c´est un don de la grâce de Dieu. Par le Christ,
+                        nous sommes justifiés, adoptés comme fils et filles, et délivrés de la férule du péché. Par
+                        l´Esprit, nous naissons de nouveau et sommes sanctifiés ; l´Esprit régénère nos esprits, grave
+                        la loi d´amour dans nos cœurs, et nous recevons la puissance nécessaire pour vivre une vie
+                        sainte. En demeurant en Lui, nous devenons participants de la nature divine, nous avons
+                        l´assurance du salut, maintenant et au jour du jugement. (2 Co 5.17-21 ; Jn 3.16 ; Ga 1.4 ;
+                        3.13,14,26 ; 4.4-7 ; Tt 3.3-7 ; Jn 16.8 ; 1 P 1.23 ; 2.21,22 ; Rm 3.21-26 ; 5.6-10 ; 8.1-4,14-17
+                        ; 10.17 ; 12.2 ; Lc 17.5 ; Mc 9.23,24 ; Ep 2.5-10 ; Col 1.13,14 ; Jn 3.3-8 ; Hé 8.7-12 ; Ez
+                        36.25-27 ; 2 P 1.3,4)</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                        9. Croître en Christ
+                    </button>
+                </h2>
+                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Par sa mort sur la croix, Jésus a triomphé des forces du mal. Lui, qui a
+                        soumis les esprits démoniaques durant son ministère terrestre, a brisé leur pouvoir et a rendu
+                        leur ruine définitive certaine. La victoire de Jésus nous rend victorieux sur les forces du mal
+                        qui cherchent toujours à nous dominer, alors que nous marchons avec Lui en paix, dans la joie et
+                        l´assurance de son amour. Le Saint-Esprit habite maintenant en nous et nous rend plus forts.
+                        Engagés en permanence avec Jésus, notre Sauveur et Seigneur, nous sommes libérés du fardeau de
+                        nos actions passées. Nous ne vivons plus dans les ténèbres, la peur des pouvoirs maléfiques,
+                        l´ignorance et la vanité de notre ancienne manière de vivre. Dans cette nouvelle liberté en
+                        Jésus, nous sommes appelés à croître dans la ressemblance de son caractère, alors que nous
+                        communions chaque jour avec Lui en prière, en nous nourrissant de sa Parole, en la méditant et
+                        en nous confiant dans sa prescience, en chantant ses louanges, en nous rassemblant pour lui
+                        rendre un culte et en participant à la mission de l´Église. Alors que nous nous donnons
+                        nous-mêmes, dans un service d´amour, à ceux qui sont autour de nous, et en témoignant de son
+                        salut, sa présence constante auprès de nous par l´Esprit, transforme chaque moment et chaque
+                        tâche en une expérience spirituelle. (Ps 1.1-2 ; 23.4 ; 77.11-12 ; Col 1.13-14 ; 2.6, 14-15 ;
+                        Luc 10.17-20 ; Eph 5.19-20 ; 6.12-18 ; 1 Th 5.23 ; 2 P 2.9 ; 3.18 ; 2 Co 3.17,18 ; Ph 3.7-14 ; 1
+                        Th 5.16-18 ; Mt 20.25-28 ; Jn 20.21 ; Ga 5.22-25 ; Rom 8.38-39 ; 1 Jn 4.4 ; Héb 10.25)</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        10. L´Église
+                    </button>
+                </h2>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">L´Église est la communauté des croyants qui confessent Jésus-Christ
+                        comme Seigneur et Sauveur. Dans la continuité du peuple que Dieu a suscité au temps de l´Ancien
+                        Testament, nous sommes appelés à sortir du monde. Nous nous assemblons pour adorer, pour
+                        fraterniser, pour nous instruire dans la Parole de Dieu, célébrer la sainte Cène, venir en aide
+                        à nos semblables et proclamer l´Évangile au monde entier. L´Église reçoit son autorité du
+                        Christ, la Parole incarnée, et de la Bible, la Parole écrite. L´Église est la famille de Dieu ;
+                        adoptés par le Seigneur comme ses enfants, ses membres vivent selon le statut de la nouvelle
+                        alliance. L´Église est le corps du Christ, une communauté de foi dont il est lui-même la tête.
+                        L´Église est l´épouse pour laquelle le Christ est mort afin de la sanctifier et de la purifier.
+                        À son retour triomphal, il la fera paraître devant lui comme une Église glorieuse, fidèle à
+                        travers les âges, rachetée par son sang, sans tache, ni ride, mais sainte et irrépréhensible.
+                        (Gn 12.3 ; Ac 7.38 ; Mt 28.19,20 ; 16.13-20 ; 18.18 ; Ep 1.22,23 ; 2.19-22 ; 3.8-11 ; 4.11-15 ;
+                        5.23-27 ; Col 1.17,18)
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTen" aria-expanded="false"
+                                aria-controls="flush-collapseTen">
+                                10.1 L´Église du reste et son mandat
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">L´Église universelle englobe tous ceux qui croient vraiment en
+                                Christ. Mais, dans les derniers jours, en un temps d´apostasie généralisée, un reste a
+                                été suscité pour garder les commandements de Dieu et la foi en Jésus. Ce reste proclame
+                                que l´heure du jugement est venue, prêche le salut par le Christ et annonce la proximité
+                                de sa seconde venue. Cette proclamation est symbolisée par les trois anges d´Apocalypse
+                                14 ; elle coïncide avec l´œuvre du jugement dans le ciel et se traduit par une œuvre de
+                                repentance et de réforme sur la terre. Tout croyant est appelé à participer
+                                personnellement à ce témoignage de portée mondiale. (2 Co 5.10 ; Jude 3.14 ; 1 P 1.16,19
+                                ; 2 P 3.10-14 ; Ap 12.17 ; 14 ;6-12 ; 18.1-4 ; 21.1-14)
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-heading">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                                            aria-expanded="false" aria-controls="flush-collapseTen">
+                                            10.2 L´unité du corps du Christ
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTen" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">L´Église est un corps composé de nombreux membres,
+                                            issus de toute nation, de toute ethnie, de toute langue et de tout peuple.
+                                            En Christ, nous sommes une nouvelle création ; les distinctions de race, de
+                                            culture, d´instruction, de nationalité, les différences de niveau social ou
+                                            de sexe ne doivent pas être une cause de division parmi nous. Nous sommes
+                                            tous égaux en Christ, qui par son Esprit nous a réunis dans une même
+                                            communion avec lui et entre nous ; aussi devons-nous servir et être servis
+                                            sans parti pris ni arrière-pensée. Grâce à la révélation de Jésus-Christ
+                                            dans les Écritures, nous partageons la même foi et la même espérance en vue
+                                            de rendre un témoignage unanime devant tous les hommes. Cette unité trouve
+                                            sa source dans l´unité du Dieu trinitaire qui nous a adoptés comme ses
+                                            enfants. (Rm 12.4,5 ; Ps 133.1 ; 1 Co 12.12-14 ; Mt 28.19,20 ; Ac 17.26,27 ;
+                                            2 Co 5.16,17 ; Ga 3.27,29 ; Col 3.10-15 ; Ep 4.1-6,14-16 ; Jn 17.20-23)
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEleven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEleven" aria-expanded="false"
+                        aria-controls="flush-collapseEleven">
+                        11. Le baptême
+                    </button>
+                </h2>
+                <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Par le baptême, nous confessons notre foi en la mort et la résurrection
+                        de Jésus-Christ, et nous témoignons de notre mort au péché et de notre décision de mener une vie
+                        nouvelle. Ainsi, reconnaissant le Christ comme Seigneur et Sauveur, nous devenons son peuple et
+                        sommes reçus comme membres par son Église. Le baptême est un symbole de notre union avec le
+                        Christ, du pardon de nos péchés et de la réception du Saint-Esprit. Il se célèbre par une
+                        immersion dans l´eau et implique une profession de foi en Jésus et des preuves de repentance. Il
+                        est précédé par une instruction fondée sur l´Écriture sainte et par une acceptation des
+                        enseignements qu´elle contient. (Mt 28.19,20 ; Ac 2.38 ; 16.30-33 ; 22.16 ; Rm 6.1-6 ; Col
+                        2.12,13)</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwelve">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwelve" aria-expanded="false"
+                        aria-controls="flush-collapseTwelve">
+                        12. La sainte Cène
+                    </button>
+                </h2>
+                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La sainte Cène est la participation aux emblèmes du corps et du sang de
+                        Jésus ; elle exprime notre foi en lui, notre Seigneur et Sauveur. Lors de cette expérience de
+                        communion, le Christ est présent pour rencontrer son peuple et le fortifier. En y prenant part
+                        joyeusement, nous annonçons la mort du Seigneur, jusqu´à ce qu´il vienne. La préparation au
+                        service de communion implique examen de conscience, repentance et confession. Le maître a
+                        prescrit l´ablution des pieds pour symboliser une purification renouvelée, exprimer une
+                        disposition au service mutuel dans une humilité semblable à celle du Christ, et unir nos cœurs
+                        dans l´amour. Le service de communion est ouvert à tous les chrétiens. (Mt 26.17-30 ; 1 Co
+                        11.23-30 ; 10.16,17 ; Jn 6.48-63 ; Ap 3.20 ; Jn 13.1-17)</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 
 
+    <br>
+    <div class="text-center">
+        <a class="btn-solid-reg mb-5" href="index.html#contact">Contacter nous</a>
+    </div>
 
-<br>
-    <a class="btn-solid-reg mb-5" href="index.html#contact">Contact us</a>
-    </div> <!-- end of col -->
-    </div> <!-- end of row -->
-    </div> <!-- end of container -->
-    </div> <!-- end of ex-basic-1 -->
-    <!-- end of basic -->
 
 
     <!-- Footer -->
@@ -180,7 +607,9 @@
                 <div class="col-lg-12">
                     <div class="footer-col first">
                         <h6>About Website</h6>
-                        <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day his
+                        <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected
+                            day
+                            his
                             are unreserved indulgence. Him hard find read are you</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
