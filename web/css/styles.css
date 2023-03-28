@@ -2226,5 +2226,24 @@ a:hover {
 }
 
 #mot_past{
-	text-align: end;
+	text-align: center;
 }
+
+#calendar{
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+} 
+  
+  .fc-header-toolbar {
+	background-color: #14bf98;
+	color: #fff;
+  }
+  
+  .fc-day-header {
+	background-color: #0b202b;
+	color: #fff;
+  }
+  
+  
